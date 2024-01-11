@@ -24,7 +24,7 @@
     </header>
 
     <main class="main">
-      <section class="add-task" id="top-section-forAdding-element-to-list">
+      <section class="add-task" id="add-task">
         <label class="add-task__label" for="new-task">Add Item</label>
         <div class="add-task__container">
           <input class="add-task__input input" type="text" />
@@ -33,7 +33,7 @@
       </section>
 
       <section class="todo-tasks">
-        <h3 class="todo-tasks__title title">Todo</h3>
+        <p class="todo-tasks__title title">Todo</p>
         <ul class="todo-tasks__list list">
           <li class="list__elem">
             <input
@@ -54,7 +54,7 @@
               />
             </button>
           </li>
-          <li class="list__elem editMode">
+          <li class="list__elem list__elem_edit">
             <input
               class="list__input list__input_type-checkbox input"
               type="checkbox"
@@ -78,7 +78,7 @@
       </section>
 
       <section class="completed-tasks">
-        <h3 class="completed-tasks__title title">Completed</h3>
+        <p class="completed-tasks__title title">Completed</p>
         <ul class="completed-tasks__list list" id="completed-tasks">
           <li class="list__elem">
             <input

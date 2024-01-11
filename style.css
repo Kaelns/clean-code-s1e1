@@ -169,11 +169,11 @@
   display: none;
 }
 
-.editMode .list__input_type-text {
+.list__elem_edit .list__input_type-text {
   display: inline-block;
   width: 224px;
 }
 
-.editMode .list__task {
+.list__elem_edit .list__task {
   display: none;
 }
